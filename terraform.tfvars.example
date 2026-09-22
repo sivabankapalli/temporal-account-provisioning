@@ -1,0 +1,8 @@
+# Copy to terraform.tfvars and fill in what you have. Everything has a safe default,
+# so you can start with just `environment` and add SCIM groups once you find their idp_id.
+
+environment = "poc"
+
+# billing_admin_group_idp_id = "temporal-billing-admin"
+# audit_reader_group_idp_id  = "temporal-audit-reader"
+# project_admin_group_idp_id = "temporal-poc-project-admin"
